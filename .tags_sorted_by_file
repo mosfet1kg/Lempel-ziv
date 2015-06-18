@@ -1,0 +1,145 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+OBJECTS	dec/Makefile	/^OBJECTS = main.o list.o$/;"	m
+ASSERT	dec/lib/debug.h	/^#define ASSERT(/;"	d
+__LIB_DEBUG_H	dec/lib/debug.h	/^#define __LIB_DEBUG_H$/;"	d
+find_end_of_run	dec/lib/list.c	/^find_end_of_run (struct list_elem *a, struct list_elem *b,$/;"	f	file:
+inplace_merge	dec/lib/list.c	/^inplace_merge (struct list_elem *a0, struct list_elem *a1b0,$/;"	f	file:
+is_head	dec/lib/list.c	/^is_head (struct list_elem *elem)$/;"	f	file:
+is_interior	dec/lib/list.c	/^is_interior (struct list_elem *elem)$/;"	f	file:
+is_sorted	dec/lib/list.c	/^is_sorted (struct list_elem *a, struct list_elem *b,$/;"	f	file:
+is_tail	dec/lib/list.c	/^is_tail (struct list_elem *elem)$/;"	f	file:
+list_back	dec/lib/list.c	/^list_back (struct list *list)$/;"	f
+list_begin	dec/lib/list.c	/^list_begin (struct list *list)$/;"	f
+list_empty	dec/lib/list.c	/^list_empty (struct list *list)$/;"	f
+list_end	dec/lib/list.c	/^list_end (struct list *list)$/;"	f
+list_front	dec/lib/list.c	/^list_front (struct list *list)$/;"	f
+list_head	dec/lib/list.c	/^list_head (struct list *list) $/;"	f
+list_init	dec/lib/list.c	/^list_init (struct list *list)$/;"	f
+list_insert	dec/lib/list.c	/^list_insert (struct list_elem *before, struct list_elem *elem)$/;"	f
+list_insert_ordered	dec/lib/list.c	/^list_insert_ordered (struct list *list, struct list_elem *elem,$/;"	f
+list_max	dec/lib/list.c	/^list_max (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_min	dec/lib/list.c	/^list_min (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_next	dec/lib/list.c	/^list_next (struct list_elem *elem)$/;"	f
+list_pop_back	dec/lib/list.c	/^list_pop_back (struct list *list)$/;"	f
+list_pop_front	dec/lib/list.c	/^list_pop_front (struct list *list)$/;"	f
+list_prev	dec/lib/list.c	/^list_prev (struct list_elem *elem)$/;"	f
+list_push_back	dec/lib/list.c	/^list_push_back (struct list *list, struct list_elem *elem)$/;"	f
+list_push_front	dec/lib/list.c	/^list_push_front (struct list *list, struct list_elem *elem)$/;"	f
+list_rbegin	dec/lib/list.c	/^list_rbegin (struct list *list) $/;"	f
+list_remove	dec/lib/list.c	/^list_remove (struct list_elem *elem)$/;"	f
+list_rend	dec/lib/list.c	/^list_rend (struct list *list) $/;"	f
+list_reverse	dec/lib/list.c	/^list_reverse (struct list *list)$/;"	f
+list_size	dec/lib/list.c	/^list_size (struct list *list)$/;"	f
+list_sort	dec/lib/list.c	/^list_sort (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_splice	dec/lib/list.c	/^list_splice (struct list_elem *before,$/;"	f
+list_tail	dec/lib/list.c	/^list_tail (struct list *list) $/;"	f
+list_unique	dec/lib/list.c	/^list_unique (struct list *list, struct list *duplicates,$/;"	f
+swap	dec/lib/list.c	/^swap (struct list_elem **a, struct list_elem **b) $/;"	f	file:
+NULL	dec/lib/list.h	/^#define NULL /;"	d
+__LIB_LIST_H	dec/lib/list.h	/^#define __LIB_LIST_H$/;"	d
+head	dec/lib/list.h	/^    struct list_elem head;      \/* List head. *\/$/;"	m	struct:list	typeref:struct:list::list_elem
+list	dec/lib/list.h	/^struct list $/;"	s
+list_elem	dec/lib/list.h	/^struct list_elem $/;"	s
+list_entry	dec/lib/list.h	/^#define list_entry(/;"	d
+list_less_func	dec/lib/list.h	/^typedef bool list_less_func (const struct list_elem *a,$/;"	t
+next	dec/lib/list.h	/^    struct list_elem *next;     \/* Next list element. *\/$/;"	m	struct:list_elem	typeref:struct:list_elem::list_elem
+offsetof_list	dec/lib/list.h	/^#define offsetof_list(/;"	d
+prev	dec/lib/list.h	/^    struct list_elem *prev;     \/* Previous list element. *\/$/;"	m	struct:list_elem	typeref:struct:list_elem::list_elem
+tail	dec/lib/list.h	/^    struct list_elem tail;      \/* List tail. *\/$/;"	m	struct:list	typeref:struct:list::list_elem
+MAX_SIZE	dec/main.c	/^#define MAX_SIZE /;"	d	file:
+calBits	dec/main.c	/^unsigned int calBits(unsigned n){$/;"	f
+getBits	dec/main.c	/^uint8_t getBits(uint8_t buffer, int start, int end, bool dir){$/;"	f
+getInfo	dec/main.c	/^void getInfo(int* num, char* letter, char* str){$/;"	f
+insertNode	dec/main.c	/^ENC* insertNode(char letter, NODE* root){$/;"	f
+lookup	dec/main.c	/^NODE* lookup(int num){$/;"	f
+main	dec/main.c	/^int main(int argc, char const *argv[])$/;"	f
+makeNode	dec/main.c	/^NODE* makeNode(char letter, NODE* parent){$/;"	f
+node_list	dec/main.c	/^struct list node_list;$/;"	v	typeref:struct:list
+showNum	dec/main.c	/^void showNum(NODE* node){$/;"	f
+ENC	dec/main.h	/^} ENC;$/;"	t	typeref:struct:enc
+NODE	dec/main.h	/^} NODE;$/;"	t	typeref:struct:node
+__MAIN_H	dec/main.h	/^#define __MAIN_H$/;"	d
+children_list	dec/main.h	/^	struct list children_list;$/;"	m	struct:node	typeref:struct:node::list
+elem	dec/main.h	/^	struct list_elem elem;$/;"	m	struct:node	typeref:struct:node::list_elem
+enc	dec/main.h	/^typedef struct enc{$/;"	s
+letter	dec/main.h	/^	char letter;$/;"	m	struct:enc
+letter	dec/main.h	/^	char letter;$/;"	m	struct:node
+node	dec/main.h	/^typedef struct node{$/;"	s
+num	dec/main.h	/^	int num;$/;"	m	struct:node
+num_elem	dec/main.h	/^	struct list_elem num_elem;$/;"	m	struct:node	typeref:struct:node::list_elem
+parent	dec/main.h	/^	struct node *parent;$/;"	m	struct:node	typeref:struct:node::node
+parent_num	dec/main.h	/^	int parent_num;$/;"	m	struct:enc
+OBJECTS	enc/Makefile	/^OBJECTS = main.o list.o$/;"	m
+calBits	enc/foo.c	/^int calBits(unsigned n){$/;"	f
+main	enc/foo.c	/^int main(int argc, char const *argv[])$/;"	f
+main	enc/hello.c	/^int main(int argc, char const *argv[])$/;"	f
+ASSERT	enc/lib/debug.h	/^#define ASSERT(/;"	d
+__LIB_DEBUG_H	enc/lib/debug.h	/^#define __LIB_DEBUG_H$/;"	d
+find_end_of_run	enc/lib/list.c	/^find_end_of_run (struct list_elem *a, struct list_elem *b,$/;"	f	file:
+inplace_merge	enc/lib/list.c	/^inplace_merge (struct list_elem *a0, struct list_elem *a1b0,$/;"	f	file:
+is_head	enc/lib/list.c	/^is_head (struct list_elem *elem)$/;"	f	file:
+is_interior	enc/lib/list.c	/^is_interior (struct list_elem *elem)$/;"	f	file:
+is_sorted	enc/lib/list.c	/^is_sorted (struct list_elem *a, struct list_elem *b,$/;"	f	file:
+is_tail	enc/lib/list.c	/^is_tail (struct list_elem *elem)$/;"	f	file:
+list_back	enc/lib/list.c	/^list_back (struct list *list)$/;"	f
+list_begin	enc/lib/list.c	/^list_begin (struct list *list)$/;"	f
+list_empty	enc/lib/list.c	/^list_empty (struct list *list)$/;"	f
+list_end	enc/lib/list.c	/^list_end (struct list *list)$/;"	f
+list_front	enc/lib/list.c	/^list_front (struct list *list)$/;"	f
+list_head	enc/lib/list.c	/^list_head (struct list *list) $/;"	f
+list_init	enc/lib/list.c	/^list_init (struct list *list)$/;"	f
+list_insert	enc/lib/list.c	/^list_insert (struct list_elem *before, struct list_elem *elem)$/;"	f
+list_insert_ordered	enc/lib/list.c	/^list_insert_ordered (struct list *list, struct list_elem *elem,$/;"	f
+list_max	enc/lib/list.c	/^list_max (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_min	enc/lib/list.c	/^list_min (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_next	enc/lib/list.c	/^list_next (struct list_elem *elem)$/;"	f
+list_pop_back	enc/lib/list.c	/^list_pop_back (struct list *list)$/;"	f
+list_pop_front	enc/lib/list.c	/^list_pop_front (struct list *list)$/;"	f
+list_prev	enc/lib/list.c	/^list_prev (struct list_elem *elem)$/;"	f
+list_push_back	enc/lib/list.c	/^list_push_back (struct list *list, struct list_elem *elem)$/;"	f
+list_push_front	enc/lib/list.c	/^list_push_front (struct list *list, struct list_elem *elem)$/;"	f
+list_rbegin	enc/lib/list.c	/^list_rbegin (struct list *list) $/;"	f
+list_remove	enc/lib/list.c	/^list_remove (struct list_elem *elem)$/;"	f
+list_rend	enc/lib/list.c	/^list_rend (struct list *list) $/;"	f
+list_reverse	enc/lib/list.c	/^list_reverse (struct list *list)$/;"	f
+list_size	enc/lib/list.c	/^list_size (struct list *list)$/;"	f
+list_sort	enc/lib/list.c	/^list_sort (struct list *list, list_less_func *less, void *aux)$/;"	f
+list_splice	enc/lib/list.c	/^list_splice (struct list_elem *before,$/;"	f
+list_tail	enc/lib/list.c	/^list_tail (struct list *list) $/;"	f
+list_unique	enc/lib/list.c	/^list_unique (struct list *list, struct list *duplicates,$/;"	f
+swap	enc/lib/list.c	/^swap (struct list_elem **a, struct list_elem **b) $/;"	f	file:
+NULL	enc/lib/list.h	/^#define NULL /;"	d
+__LIB_LIST_H	enc/lib/list.h	/^#define __LIB_LIST_H$/;"	d
+head	enc/lib/list.h	/^    struct list_elem head;      \/* List head. *\/$/;"	m	struct:list	typeref:struct:list::list_elem
+list	enc/lib/list.h	/^struct list $/;"	s
+list_elem	enc/lib/list.h	/^struct list_elem $/;"	s
+list_entry	enc/lib/list.h	/^#define list_entry(/;"	d
+list_less_func	enc/lib/list.h	/^typedef bool list_less_func (const struct list_elem *a,$/;"	t
+next	enc/lib/list.h	/^    struct list_elem *next;     \/* Next list element. *\/$/;"	m	struct:list_elem	typeref:struct:list_elem::list_elem
+offsetof_list	enc/lib/list.h	/^#define offsetof_list(/;"	d
+prev	enc/lib/list.h	/^    struct list_elem *prev;     \/* Previous list element. *\/$/;"	m	struct:list_elem	typeref:struct:list_elem::list_elem
+tail	enc/lib/list.h	/^    struct list_elem tail;      \/* List tail. *\/$/;"	m	struct:list	typeref:struct:list::list_elem
+calBits	enc/main.c	/^unsigned int calBits(unsigned n){$/;"	f
+getBits	enc/main.c	/^uint8_t getBits(uint8_t buffer, int start, int end, bool dir){$/;"	f
+insertNode	enc/main.c	/^ENC* insertNode(char letter, NODE* root){$/;"	f
+main	enc/main.c	/^int main(int argc, char const *argv[])$/;"	f
+makeNode	enc/main.c	/^NODE* makeNode(char letter, NODE* parent){$/;"	f
+node_list	enc/main.c	/^struct list node_list;$/;"	v	typeref:struct:list
+saveEncStream	enc/main.c	/^void saveEncStream(FILE* of, uint32_t num, uint8_t letter){$/;"	f
+ENC	enc/main.h	/^} ENC;$/;"	t	typeref:struct:enc
+NODE	enc/main.h	/^} NODE;$/;"	t	typeref:struct:node
+__MAIN_H	enc/main.h	/^#define __MAIN_H$/;"	d
+children_list	enc/main.h	/^	struct list children_list;$/;"	m	struct:node	typeref:struct:node::list
+elem	enc/main.h	/^	struct list_elem elem;$/;"	m	struct:node	typeref:struct:node::list_elem
+enc	enc/main.h	/^typedef struct enc{$/;"	s
+letter	enc/main.h	/^	char letter;$/;"	m	struct:enc
+letter	enc/main.h	/^	char letter;$/;"	m	struct:node
+node	enc/main.h	/^typedef struct node{$/;"	s
+num	enc/main.h	/^	unsigned int num;$/;"	m	struct:node
+parent	enc/main.h	/^	struct node *parent;$/;"	m	struct:node	typeref:struct:node::node
+parent_num	enc/main.h	/^	unsigned int parent_num;$/;"	m	struct:enc
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
