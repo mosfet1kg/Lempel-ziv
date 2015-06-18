@@ -27,11 +27,9 @@ int main(int argc, char const *argv[])
 			if(enc){ 
 				// printf("%d%c", enc->parent_num, enc->letter); 
 				saveEncStream(of, (uint32_t)enc->parent_num, (uint8_t)enc->letter);
-				// fprintf(of,"%d%c\n",enc->parent_num, enc->letter);
+				
 				free(enc); enc = NULL;	
 			}
-
-
 		}
 	}
 
@@ -52,7 +50,7 @@ void saveEncStream(FILE* of, uint32_t num, uint8_t letter){
 
 	int l = calBits(cnt);
 	cnt++;
-	printf("자리수 l : %d \n", l);
+	// printf("자리수 l : %d \n", l);
 
 	uint32_t tmp = num;
 
@@ -80,28 +78,15 @@ void saveEncStream(FILE* of, uint32_t num, uint8_t letter){
 	if( pos == 7 ){
 		fprintf(of,"%c", letter);
 	}else{
-		char tmp;
-		if( cnt ==1 ) printf("%c, %u\n", letter, letter );
-		
-		tmp = letter >> 8 - (pos + 1);
-
-		if( cnt == 1 ) printf("%u\n", buffer);
+		char tmp = letter >> 8 - (pos + 1);
 
 		buffer = buffer | tmp;
-		// pos = 7;
-		if( cnt == 1 ) printf("%u\n", buffer);
-		fprintf(of, "%c", buffer);
 
+		fprintf(of, "%c", buffer);
 
 		buffer =  letter << (pos + 1);
 
-		if( cnt == 1 ){ 
-			if( (unsigned int)buffer == 128) printf("fuck\n");
-			printf("pos: %d\n", pos);
-			printf("==>%u\n", (buffer) );
-		};
-
-		pos = pos;
+		// pos = pos;
 	}
 
 }
